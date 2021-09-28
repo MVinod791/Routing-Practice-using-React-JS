@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.nav-header-container {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px;
+}
+@media screen and (min-width: 768px) {
+  .nav-header-container {
+    padding: 15px;
+  }
+}
+
+.wave-header {
+  display: flex;
+  align-items: center;
+}
+.wave-name {
+  color: #12022f;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-left: 8px;
+}
+.wave-image {
+  height: 24px;
+  width: 24px;
+}
+.nav-menu {
+  display: flex;
+  padding-left: 0px;
+
+  margin-right: 40px;
+}
+.list-item {
+  list-style-type: none;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 16px;
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Write your CSS code here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.responsive-container {
+  border: 4px solid #6d396b;
+  min-height: 100vh;
+  border-radius: 8px;
+  margin: 40px;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+  }
+}
+.app-body {
+  margin-top: 50px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
